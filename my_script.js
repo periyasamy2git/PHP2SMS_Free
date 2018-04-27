@@ -1,5 +1,5 @@
 $("#submit").click( function() {
-	$("#ack").html('MOBGYAN LOADING...');
+	$("#ack").html('Message Sending...');
 	 $.post( $("#myForm").attr("action"),
 	         $("#myForm :input").serializeArray(),
 			 function(info) {
